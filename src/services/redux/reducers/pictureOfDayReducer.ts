@@ -30,7 +30,7 @@ import {
         return {
           ...state,
           pending: false,
-          pictureOfDay: [],
+          pictureOfDay: "",
           error: action.payload.error,
         };
       default:
